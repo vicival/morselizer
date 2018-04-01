@@ -1,5 +1,5 @@
 /*
-                  <<   MORSELIZER  v2.2   >>
+                  <<   MORSELIZER  v3   >>
 
 An asynchronous Text to Morse Converter and Morse training software 
 for Arduino Uno, based on interrupts and Timer1.
