@@ -20,7 +20,7 @@ heavy code, like add some LCD & keyboard, iambic keyer, morse decoder, toaster..
 - Variable inter-symbols Pause
 - 1 µs Accuracy of the duration of all dots, lines (aka symbols) and pauses
 - Assures a non-blocking flow of execution of the rest of the code (meaning the extra code you might add, to run together..)
-- The caracters you type in the terminal are queued into an Un-Locked Circular Buffer 
+- The characters you type in the terminal are queued into an Unlocked Circular Buffer
 - it uses the 16 bits Timer1 in CTC mode 12 (a mode with no other examples on the net)
 - easily portable to any microcontroller capable of timer-triggered interrupts
 - Arduino Uno
