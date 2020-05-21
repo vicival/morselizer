@@ -4,7 +4,7 @@
 
 This MORSELIZER is an asynchronous morse code generator sketch for ATmega328 that uses **precisely-timed hardware interrupts** .
 
-**Unlike** most morse code generators, this one runs in **a non-blocking** way (for the rest of the code that you might add), similar to the keyboard subroutine of any PC/OS, leaving **~98% of the processor-time available for your own code**, code that you migh want to add/queue in the main loop(). This sketch is more like a library that you add around your own ideas than something you have to alter in order to squeeze your ideas into it. So, add your own heavy code to this sketch, like some LCD & keyboard interfacing, iambic keyer, morse decoder, RTTY, toaster code etc
+**Unlike** most morse code generators, this one runs in **a non-blocking** way (for the rest of the code that you might add), similar to the keyboard subroutine of any PC/OS, leaving **~98% of the processor-time available for your own code**, code that you migh want to add/queue in the main loop(). This sketch is more like a library that you add around your own ideas than something you have to alter in order to squeeze your ideas into it. So, take it and improve it by adding your own code to it, like some LCD & keyboard interfacing, iambic keyer, morse decoder, RTTY, toaster code etc
 
 - Morse Code generator
 - ASCII to Morse Mode (when connected to Arduino_IDE's Serial Monitor terminal) 
