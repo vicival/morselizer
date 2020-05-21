@@ -21,5 +21,3 @@ This MORSELIZER is an asynchronous morse code generator sketch for ATmega328 tha
 - Easily portable to any microcontroller capable of timer-triggered interrupts
 - Easy to understand **C** code
 - Basically, an Interrupt Routine does it all; meaning a good isolation between it and whatever code you might want to add
-
-## _
