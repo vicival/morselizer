@@ -1,10 +1,10 @@
 <h1 align = "center">🌟Morselizer🌟</h1>
 
-## **for Arduino Uno (and not only..) | Category - Ham Radio | License - [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)**
+## **for Arduino Uno (but not only..) | Category - Ham Radio | License - [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)**
 
-This MORSELIZER is an asynchronous morse code generator sketch for Arduino Uno that uses precisely-timed hardware interrupts.
+This MORSELIZER is an asynchronous morse code generator sketch for ATmega328 that uses **precisely-timed hardware interrupts** .
 
-Unlike most morse code generators, this one runs in a non-blocking way (for the rest of the code that you might add), similar to the keyboard subroutine of any PC/OS, leaving ~98% of the processor time available for your own aps/code, code that you migh want to add/queue to the main loop(). So you can expand this sketch with your own heavy code, like add some LCD & keyboard interfacing, maybe a iambic keyer or morse decoder or some toaster code..
+**Unlike** most morse code generators, this one runs in **a non-blocking** way (for the rest of the code that you might add), similar to the keyboard subroutine of any PC/OS, leaving **~98%** of the processor-time available for your own aps/code, code that you migh want to add/queue in the main loop(). This sketch is more like a library that you add around your own idea/sketch than a piece of code you have to alter in order to squeeze your idea into it. So you can expand this sketch with your own heavy code, like add some LCD & keyboard interfacing, maybe a iambic keyer or morse decoder or some toaster code..
 
 - Morse Code generator
 - ASCII to Morse Mode (when connected to Arduino_IDE's Serial Monitor terminal) 
